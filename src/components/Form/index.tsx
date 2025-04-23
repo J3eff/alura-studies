@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button";
 
-class Form extends React.Component {
+export default class Form extends React.Component {
   render() {
     return (
       <form>
@@ -34,5 +34,3 @@ class Form extends React.Component {
     );
   }
 }
-
-export default Form;
